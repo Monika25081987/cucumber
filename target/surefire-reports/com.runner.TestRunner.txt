@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 60.557 s <<< FAILURE! - in com.runner.TestRunner
+com.runner.TestRunner.runScenario["Login in to an application", "Login in to a website"](2)  Time elapsed: 10.879 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'I enter username and password to application' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("I enter username and password to application")
+public void i_enter_username_and_password_to_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
